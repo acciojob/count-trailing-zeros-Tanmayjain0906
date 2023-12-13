@@ -1,16 +1,16 @@
 function trailingZeros(n) {
     const factorial = findFactorial(n);
 	const trailingZeros = findTrailingZeros(factorial);
-	// const tbody = document.getElementsByTagName("tbody")[0];
-	// const tr = document.createElement("tr");
-	// const td1 = document.createElement("td");
-	// td1.innerText = `trailingZeros(${n})`
+	const tbody = document.getElementsByTagName("tbody")[0];
+	const tr = document.createElement("tr");
+	const td1 = document.createElement("td");
+	td1.innerText = `trailingZeros(${n})`
 
-	// const td2 = document.createElement("td");
-	// td2.innerText = trailingZeros;
+	const td2 = document.createElement("td");
+	td2.innerText = trailingZeros;
 
-	// tr.append(td1, td2);
-	// tbody.append(tr);
+	tr.append(td1, td2);
+	tbody.append(tr);
 	return trailingZeros;
 }
 
